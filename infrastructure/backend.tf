@@ -2,7 +2,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "terraform-state--igti-desafio-mod2"
+    bucket = "terraform-state-igti-edc-mod2"
     key    = "igti/edc/mod2/terraform.tfstate"
     region = "us-east-2"
   }
