@@ -5,7 +5,7 @@
 ###############
 
 resource "aws_iam_role" "glue_role" {
-  name = "IGTIGlueCrawlerRole2"
+  name = "IGTIGlueCrawlerRole"
 
   assume_role_policy = <<EOF
 {
@@ -80,7 +80,7 @@ resource "aws_iam_policy" "glue_policy" {
             "Resource": [
                 "arn:aws:s3:::aws-glue-*/*",
                 "arn:aws:s3:::*/*aws-glue-*/*",
-                "arn:aws:s3:::datalake-igti-fabio--desafio-mod2/*"
+                "arn:aws:s3:::datalake-igti-fabio-desafio-mod2/*"
             ]
         },
         {
