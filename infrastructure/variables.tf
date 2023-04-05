@@ -21,9 +21,9 @@ variable "key_pair_name" {
 locals {
   prefix = "${var.prefix}-${terraform.workspace}"
   common_tags = {
-    Project      = "RAIS"
+    Project      = "Mod2-Desafio"
     ManagedBy    = "Terraform"
-    Department   = "XPed",
+    Department   = "IGTI",
     Provider     = "IGTI",
     Owner        = "Data Engineering"
     BusinessUnit = "Data"
