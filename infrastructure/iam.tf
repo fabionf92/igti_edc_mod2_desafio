@@ -5,7 +5,7 @@
 ###############
 
 resource "aws_iam_role" "glue_role" {
-  name = "IGTIGlueCrawlerRole"
+  name = "IGTIGlueCrawlerRole2"
 
   assume_role_policy = <<EOF
 {
